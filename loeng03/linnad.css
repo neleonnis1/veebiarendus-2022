@@ -2,23 +2,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
-
 h1 {
     color: orangered;
     font-size: 3rem;
     background-color: rgb(196, 166, 128);
 }
-
 .paaritu {
     background-color: aqua;
     color: blueviolet;
 }
-
 .vaikelinnad {
 font-weight: bold;
 color: blue;
 }
-
 #eriline {
     background-color: darkgreen;
 }
