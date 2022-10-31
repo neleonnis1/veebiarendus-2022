@@ -9,3 +9,13 @@ h1 {
     font-family: 'Optima';
     font-size: 2rem;
 }
+input {
+border-radius: 25px;
+}
+.kast {
+    margin-top: 15px;
+}
+.konteiner {
+    margin-left: auto;
+    margin-right: auto;
+}
