@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(194, 194, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: Roboto;
+    text-transform: uppercase;
+
+}
+
+.pais_pilt {
+    width: 150px;
+}
+
+aside {
+    background-color: aqua;
+    width: 30%;
+    min-height: 400px;
+    padding: 25px;
+}
+
+section {
+    background-color: brown;
+    width: 70%;
+    min-height: 400px;
+}
+
+.sisuala {
+    display: flex;
+}
+
+aside img {
+    width: 90%;
+    background-color: blueviolet;
+    min-height: 100px;
+}
+
+header nav a {
+    margin-left: 15px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.mitutulpa .pool {
+    width: 50%;
+    padding: 10px;
+}
+
+.mitutulpa img {
+    width: 100%;
+}
+
+.mitutulpa {
+    display: flex;
+}
+
+section h2 {
+    padding-left: 10px;
+}
+
+section p {
+    padding-left: 10px;
+}
