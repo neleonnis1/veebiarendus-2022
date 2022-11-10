@@ -23,13 +23,12 @@ body {
         background-color: rgb(42, 61, 165);
     }
 
-#desktop {
-    display: block;
+    #desktop {
+        display: block;
     }
 
 
-#mobiil, #tahvel {
+    #mobiil, #tahvel {
     display: none;
     }
-
 }

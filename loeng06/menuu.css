@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: rgb(212, 212, 219);
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-items {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact, .jobs, .news, .blog {
+    background-color: rgb(212, 212, 219);
+    padding: 10px;
+}
+
+@media screen and (min-width: 980px) {
+    .menu-items {
+        display: flex;
+        justify-content: center;
+    }
+}
