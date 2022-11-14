@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.paiskonteiner {
+    background-image: url('./Pildid/Hills.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 778px;
+    width: 100%
+}
+
+.pais-logo {
+    width: 66.72px;
+    height: 64px;
+}
+
+.pais-nimi {
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 100px;
+    line-height: 28px;
+}
+
+.paiskonteiner {
+    padding-top: 31.94px;
+}
+

@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: rgb(236, 204, 234);
+}
+
+@media screen and (min-width: 650px) {
+    .sisuala {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tulbad {
+        max-width: 50%;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .tulbad {
+        max-width: 33%;
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.pais {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(182, 96, 176);
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulbad {
+    justify-items: center;
+    padding-top: 10px;
+}
+
+.kolmandik-kuupaev {
+    color: rgb(140, 27, 155);
+    font-weight: bold;
+}
+
+.tutvu {
+    background-color: rgb(247, 67, 217);
+    padding: 10px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+  .sisuala {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .sisuala img {
+    width: 100%;
+  }
+
+  .kolmandik {
+    padding-bottom: 40px;
+  }
