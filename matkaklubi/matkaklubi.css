@@ -11,6 +11,12 @@
     width: 100%
 }
 
+@media screen and (min-width: 1500px) {
+    .paiskonteiner {
+        background-image: url('./Pildid/Hills@2x.png');
+    }
+}
+
 .pais-logo {
     width: 66.72px;
     height: 64px;
