@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paiskonteiner {
+    background-image: url('./Pildid/Hills.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: 778px;
+    width: 100%
+}
+
+@media screen and (min-width: 1500px) {
+    .paiskonteiner {
+        background-image: url('./Pildid/Hills@2x.png');
+    }
+}
+
+.pais-logo {
+    width: 66.72px;
+    height: 64px;
+    letter-spacing: 0px;
+    color: #0B0B0B;
+}
+
+.pais-nimi {
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 100px;
+    line-height: 29px;
+}
+
+.paiskonteiner {
+    padding-top: 31.94px;
+}
+
+.pais-menyy {
+    flex: wrap;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 1; 
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pais-menyy a {
+    color: #000000;
+    opacity: 1; 
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container {
+    padding-left: 72px;
+    margin: 10px;
+}
+
+
+.rida {
+    color: 0B0B0B:
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.rida h2 {
+    font-size: 39.57px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+.rida h1 {
+    font-size: 74.38px;
+    font-weight: 800;
+}
+
+
+
+.rida h3 {
+    font-size: 20.83px;
+    font-weight: 800;
+}
+
+
+
+
+.pealkiri-tekstid {
+    padding-top: 231px;
+}

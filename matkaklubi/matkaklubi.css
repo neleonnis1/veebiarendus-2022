@@ -1,14 +1,19 @@
 * {
     box-sizing: border-box;
+}  
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .paiskonteiner {
     background-image: url('./Pildid/Hills.png');
     background-position: center;
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     height: 778px;
-    width: 100%
+    width: 100%;
+    padding-top: 31.94px;
 }
 
 @media screen and (min-width: 1500px) {
@@ -18,8 +23,10 @@
 }
 
 .pais-logo {
-    width: 66.72px;
-    height: 64px;
+    height: 73px;
+    width: 75.72px;
+    letter-spacing: 0px;
+    color: #0B0B0B;
 }
 
 .pais-nimi {
@@ -27,10 +34,86 @@
     text-transform: uppercase;
     font-weight: 800;
     width: 100px;
-    line-height: 28px;
+    line-height: 33px;
 }
 
-.paiskonteiner {
-    padding-top: 31.94px;
+.pais-menyy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.67px;
+	font-weight: bold;
+    text-transform: uppercase;
+	letter-spacing: 2.67px;
+    margin-left: auto
 }
 
+.pais-menyy a {
+    color: #0B0B0B;
+}
+
+.pais-menyy ul {
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.pais-menyy li {
+    padding: 0px;
+    margin-left: 10px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.rida {
+    color: #0B0B0B;
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rida h2 {
+    font-size: 39.57px;
+    font-weight: 800;
+}
+
+.rida h1 {
+    font-size: 74.39px;
+    font-weight: 800;
+}
+
+.rida h3 {
+    font-size: 20.83px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.pealkiri-tekstid {
+    padding-top: 231px;
+}
+
+.tutvu {
+    background-color: #0B0B0B;
+    padding-right: 22.5px;
+    padding-left: 22.5px;
+    padding-bottom: 21.56px;
+    padding-top: 21.44px;
+    letter-spacing: 2.25px;
+    color: #FFFFFF;
+    font-size: 12.5px;
+    text-transform: uppercase;
+
+    
+    font-weight: bold;
+    
+}
+
+.liblikas1 {
+    width: 75.27px;
+    height: 66.04px;
+    margin-top: -32px;
+}
+
+.liblikas2 {
+    width: 60px;
+    height: 32px;
+    margin-top: 15px;
+}
