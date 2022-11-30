@@ -22,6 +22,12 @@ body {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 95%;
+    }
+}
+
 .pais-logo {
     height: 73px;
     width: 75.72px;
@@ -43,7 +49,7 @@ body {
 	font-weight: bold;
     text-transform: uppercase;
 	letter-spacing: 2.67px;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .pais-menyy a {
@@ -59,16 +65,16 @@ body {
     padding: 0px;
     margin-left: 10px;
     min-width: 100px;
-    text-align: center;
 }
 
 .rida {
     color: #0B0B0B;
+    font-weight: 800;
     font-family: 'Montserrat', sans-serif; 
     text-transform: uppercase;
     display: flex;
-    justify-content: space-between;
 }
+
 
 .rida h2 {
     font-size: 39.57px;
@@ -100,10 +106,7 @@ body {
     color: #FFFFFF;
     font-size: 12.5px;
     text-transform: uppercase;
-
-    
     font-weight: bold;
-    
 }
 
 .liblikas1 {
@@ -113,7 +116,30 @@ body {
 }
 
 .liblikas2 {
-    width: 60px;
     height: 32px;
-    margin-top: 15px;
+    width: 60px;
+    display: block;
+    margin-left: -40px;
+    margin-top: -3px;
+    position: absolute;
+}
+
+.pealispilt {
+    overflow: hidden;
+}
+
+.pealispilt .matkaja {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -400px;
+}
+
+
+.pealispilt .vari {
+    width: 1091px;
+    height: 89px;
+    margin-top: -40px;
+    margin-left: -158px;
 }

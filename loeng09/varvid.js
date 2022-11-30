@@ -1,21 +1,33 @@
-function valjastaRuut(x) {
+function valjastaRuutJaKuup(x) {
     console.log(x * x)
-    console.log(Math.pow(x, 3))
+    console.log(x * x * x)
 }
 
-valjastaRuutjaKuup(100)
-valjastaRuutjaKuup(25)
-valjastaRuutjaKuup(5)
+valjastaRuutJaKuup(100)
+valjastaRuutJaKuup(25)
+valjastaRuutJaKuup(3)
+
 
 function valjasta(tekst) {
     let valjundBlokk = document.getElementById('valjund')
     valjundBlokk.innerHTML += '<div>' + tekst + '</div>'
+
 }
 
-let varv = prompt('Sisesta minu lemmikvarv')
+function arvaVarv () {
 
-let minuLemmikvarv = 'must'
+    let varv = document.getElementById('sisend').value
 
-if (varv === minuLemmikvarv) {
-    ')
+    let minuLemmikvarv = 'kollane'
+    let minuLemmikvarv2 = 'punane'
+
+    if (varv === minuLemmikvarv) {
+        valjasta('Tubli, arvasid ära minu esimese lemmikvärvi!')
+    } else if (varv === minuLemmikvarv2) {
+        valjasta('Tubli, arvasid ära minu teise lemmikvärvi!')
+    } else {
+        valjasta('See ei ole minu lemmikvärv, aga tubli oled ikka!')
+    }
+
 }
+

@@ -1,3 +1,14 @@
-let varv
-varv = prompt ('Sisesta oma lemmikvärv')
-alert(varv + ' on ilus värv')
+let lemmikvarv
+lemmikvarv = prompt('Mis on Sinu lemmikvärv?')
+alert(lemmikvarv + ' on ilus värv!')
+
+
+
+
+
+
+
+
+
+
+
