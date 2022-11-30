@@ -4,6 +4,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    padding-top: 31.94px;
+    
 }
 
 .paiskonteiner {
@@ -81,6 +83,15 @@ h1 {
 .nupp {
     background-color: #0B0B0B;
     color: white;
+}
+
+.vorm {
+    margin-left: 28px;
+    position: relative;
+    width: 100%;
+    align-text: left;
+   
+
 }
 
 
